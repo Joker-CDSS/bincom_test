@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: cadetblue;
+  background-color: beige;
+}
+
+#header {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.table-container {
+  margin: 0 auto;
+}
+
+.div-button {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.div-button > button {
+  border: 3px solid #82837e;
+  padding: 5px 5px;
+  background-color: #007bff;
+  color: black;
+  font-size: 18px;
+}
+
+.div-button > button > a {
+  text-decoration: none;
+  font-size: inherit;
+  font-family: monospace;
+  color: inherit;
+}
+/* include sum page code above here */
+
+.flex-buttons {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.header2 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.vertical-form {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px; 
+  max-width: 300px; 
+  margin: auto; 
+}
+
+.vertical-form input {
+  padding: 8px;
+  font-size: 1rem;
+  width: 100%; 
+}
+
+
+.vertical-form button {
+  padding: 8px;
+  font-size: 1rem;
+  width: 100%; 
+}
